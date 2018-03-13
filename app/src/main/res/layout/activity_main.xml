@@ -4,9 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.abc.test_retrofit.MainActivity">
+    tools:context="com.example.abc.test_retrofit.MainActivity"
+    android:orientation="horizontal">
 
 <LinearLayout
+    android:id="@+id/layout_submit"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="20dp"
@@ -20,6 +22,7 @@
                     android:layout_height="wrap_content"
                     android:hint="username"/>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="40dp">
@@ -31,23 +34,45 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="150dp"
-            android:layout_height="40dp"
-            android:layout_gravity="center">
+            android:id="@+id/submit"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/solid_blue"
+            android:gravity="center">
 
-                <Button
-                    android:id="@+id/submit"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+
+                <TextView
+                    style="@style/Gotham_Book"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:textSize="20dp"
-                    android:hint="Submit"/>
-
+                    android:text="Submit"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
         </LinearLayout>
 
 
-
 </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/list_recycler_view"
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="fill_parent"
+                    android:scrollbars="none" />
+
+        </LinearLayout>
 
 </LinearLayout>
 

@@ -1,22 +1,40 @@
 package com.example.abc.test_retrofit.response;
 
 public class Contact {
-    public String username;
-    public String password;
+    public String name;
+    public String email;
+    public String mobile;
+    public String company;
 
-    public String getUsername() {
-        return username;
+    public String getMobile() {
+        return mobile;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
     }
 
-    public String getPassword() {
-        return password;
+    public String getCompany() {
+        return company;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setCompany(String company) {
+        this.company = company;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
