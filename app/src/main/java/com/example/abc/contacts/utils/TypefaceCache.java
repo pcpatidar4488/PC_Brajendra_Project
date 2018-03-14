@@ -1,4 +1,4 @@
-package com.example.abc.test_retrofit.utils;
+package com.example.abc.contacts.utils;
 
 import android.content.res.AssetManager;
 import android.graphics.Typeface;

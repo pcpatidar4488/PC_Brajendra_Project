@@ -1,4 +1,4 @@
-package com.example.abc.test_retrofit.response;
+package com.example.abc.contacts.response;
 
 public class Contact {
     public String name;

@@ -1,4 +1,4 @@
-package com.example.abc.test_retrofit;
+package com.example.abc.contacts;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

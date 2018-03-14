@@ -1,6 +1,4 @@
-package com.example.abc.test_retrofit.response;
-
-import com.example.abc.test_retrofit.response.Contact;
+package com.example.abc.contacts.response;
 
 import java.util.ArrayList;
 

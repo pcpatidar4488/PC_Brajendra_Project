@@ -1,11 +1,9 @@
-package com.example.abc.test_retrofit;
+package com.example.abc.contacts;
 
-import com.example.abc.test_retrofit.response.UserResponse;
+import com.example.abc.contacts.response.UserResponse;
 
 import retrofit2.Call;
-import retrofit2.http.Body;
 import retrofit2.http.Field;
-import retrofit2.http.FieldMap;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.POST;
 

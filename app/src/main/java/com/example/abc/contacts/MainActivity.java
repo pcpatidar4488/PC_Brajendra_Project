@@ -1,4 +1,4 @@
-package com.example.abc.test_retrofit;
+package com.example.abc.contacts;
 
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -10,15 +10,13 @@ import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.abc.test_retrofit.adapter.ContactListAdapter;
-import com.example.abc.test_retrofit.response.UserResponse;
-import com.example.abc.test_retrofit.utils.TypefaceCache;
+import com.example.abc.contacts.adapter.ContactListAdapter;
+import com.example.abc.contacts.response.UserResponse;
 
 import java.util.HashMap;
 import java.util.Map;
